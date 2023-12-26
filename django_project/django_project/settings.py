@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # local
     "accounts.apps.AccountsConfig",
     "pages",
+    "articles",
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser"
@@ -113,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Katmandu"
 
 USE_I18N = True
 
